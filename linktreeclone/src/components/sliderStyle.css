@@ -1,0 +1,26 @@
+.slider{
+    display: flex;
+    flex-direction: row;
+    animation: mymove 15s linear infinite;
+    padding: 6rem 0;
+}
+@keyframes mymove {
+    0% {
+      left: 0;
+      transform: translateX(0);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(-100%);
+    }
+}
+
+.slider-img{
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 10px;
+}
+.slider-img:hover{
+    cursor: pointer;
+}

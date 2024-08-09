@@ -1,0 +1,91 @@
+.home{
+    background-color: rgb(243, 243, 241);
+}
+.bio{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: clamp(30px, 8vmin, 80px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+}
+.hero-block{
+    display: flex;
+    height: 110vh;
+}
+
+.c1{
+    flex: 50%;
+}
+.c1-up{
+    height: 48%;
+    margin: 10px;
+    background-color: rgb(233, 192, 233);
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.c1-up h2{
+    color: rgb(80, 34, 116);
+    text-decoration: underline;
+}
+.c1-down{
+    height: 48%;
+    margin: 10px;
+    background-color: rgb(210, 232, 35);
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.c1-down h2{
+    color: black;
+    text-decoration: underline;
+}
+.c2{
+    flex: 50%;
+    margin: 10px;
+    background-color: rgb(120, 0, 22);
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.c2 h2{
+    color: rgb(233, 192, 233);
+    text-decoration: underline;
+}
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.arrow-btn{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 6px;
+    font-size: 25px;
+}
+.arrow-btn:hover{
+    color: white;
+    background-color: black;
+}
+.image-card{
+    width: 800px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width:850px) {
+    .image-card{
+        width: 80%;
+    }
+}

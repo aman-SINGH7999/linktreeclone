@@ -1,0 +1,24 @@
+import React from 'react';
+import './sliderStyle.css';
+
+export default function Slider() {
+  return (
+    <div class="slider">
+        <img src="https://linktr.ee/_gatsby/image/b908b1785bd34ad31296a58c850a1f7a/c0baf42f84ec3f171afb0c8e377455c7/comedy-central.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fcomedy-central.png&a=w%3D1280%26h%3D1280%26fm%3Davif%26q%3D75&cd=9ad971602686fecef58c18febca7c272" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/a9e65241d49217b4a5ede8d78dfafb85/c36b855aa1f5fb641ad91723b483f8b5/selena-gomez.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fselena-gomez.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=803654b328587e5992b80183df4aabfa" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/b206904d58eb9604c20fcad511e36d25/c36b855aa1f5fb641ad91723b483f8b5/funkynutmeg.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Ffunkynutmeg.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=5b2ab49c6004cf25e7a4da7bdfc136d2" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/3366c979a0e1dbf88ebae4f99acfcb3d/6a30f42b5bff44434c29c5c6b36ab839/hbo.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fhbo.png&a=w%3D890%26h%3D890%26fm%3Davif%26q%3D75&cd=af3d6e04a6bdcee2389e753866f0e02c" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/1335289a5d8fddccba16506fa1fc530e/c36b855aa1f5fb641ad91723b483f8b5/laclippers.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Flaclippers.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=1bb6e802967b94e318aa6749b84e4731" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/3aa2c050efc60b6cfa77ce812309be72/c36b855aa1f5fb641ad91723b483f8b5/pharrell.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fpharrell.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=f031de01b00e63d092a2156399735192" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/e5e3809f528ce4780f04bf06c7738db8/c36b855aa1f5fb641ad91723b483f8b5/tonyhawk.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Ftonyhawk.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=57955556647b030a3af2632f16476270" alt="" class="slider-img"/>
+
+        <img src="https://linktr.ee/_gatsby/image/b908b1785bd34ad31296a58c850a1f7a/c0baf42f84ec3f171afb0c8e377455c7/comedy-central.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fcomedy-central.png&a=w%3D1280%26h%3D1280%26fm%3Davif%26q%3D75&cd=9ad971602686fecef58c18febca7c272" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/a9e65241d49217b4a5ede8d78dfafb85/c36b855aa1f5fb641ad91723b483f8b5/selena-gomez.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fselena-gomez.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=803654b328587e5992b80183df4aabfa" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/b206904d58eb9604c20fcad511e36d25/c36b855aa1f5fb641ad91723b483f8b5/funkynutmeg.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Ffunkynutmeg.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=5b2ab49c6004cf25e7a4da7bdfc136d2" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/3366c979a0e1dbf88ebae4f99acfcb3d/6a30f42b5bff44434c29c5c6b36ab839/hbo.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fhbo.png&a=w%3D890%26h%3D890%26fm%3Davif%26q%3D75&cd=af3d6e04a6bdcee2389e753866f0e02c" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/1335289a5d8fddccba16506fa1fc530e/c36b855aa1f5fb641ad91723b483f8b5/laclippers.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Flaclippers.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=1bb6e802967b94e318aa6749b84e4731" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/3aa2c050efc60b6cfa77ce812309be72/c36b855aa1f5fb641ad91723b483f8b5/pharrell.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Fpharrell.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=f031de01b00e63d092a2156399735192" alt="" class="slider-img"/>
+        <img src="https://linktr.ee/_gatsby/image/e5e3809f528ce4780f04bf06c7738db8/c36b855aa1f5fb641ad91723b483f8b5/tonyhawk.avif?u=https%3A%2F%2Fapi.blog.production.linktr.ee%2Fwp-content%2Fuploads%2F2022%2F05%2Ftonyhawk.png&a=w%3D1000%26h%3D1000%26fm%3Davif%26q%3D75&cd=57955556647b030a3af2632f16476270" alt="" class="slider-img"/>
+    </div>
+  )
+}

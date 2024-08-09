@@ -1,0 +1,123 @@
+.footer{
+    background-color: rgb(80, 34, 116);
+    color: rgb(233, 192, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 2rem;
+}
+.footer h1{
+    max-width: 750px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: clamp(25px, 7.8vmin, 75px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin: 40px;
+}
+
+.main-footer{
+    background-color: white;
+    width: 95%;
+    border-radius: 20px;
+    margin: 6rem 0;
+    padding: 3rem;
+}
+.upper-links{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.upper-links h2{
+    font-weight: 650;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer-links{
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.footer-links:hover{
+    color: gray;
+}
+.lower-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.lower-links div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lower-links img{
+    height: 70px;
+}
+.lower-links i{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.lower-links img:hover{
+    opacity: 0.7;
+}
+.lower-links i:hover{
+    opacity: 0.7;
+}
+
+.login{
+    padding: 5px 18px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(211, 213, 214);
+}
+.login:hover{
+    background-color: rgb(194, 195, 196);
+}
+
+.name{
+    background-color: rgb(233, 192, 233);
+    color: rgb(80, 34, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 6rem 0;
+    border-radius: 20px;
+    font-size: 130px;
+    font-weight: 650;
+}
+.footer-bottom{
+    width: 70%;
+    margin-top: 60px;
+}
+.img2{
+    height: 100px;
+}
+
+
+@media screen and (max-width:850px) {
+    .name{
+        font-size: 70px;
+    }
+    .footer-bottom{
+        width: 90%;
+        margin-top: 40px;
+    }
+}
